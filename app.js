@@ -1,6 +1,4 @@
 var express=require('express');
-
-var admin_apiController=require("./controllers/admin_apiController");
 var homeController=require('./controllers/homeController');
 var app=express();
 
@@ -10,8 +8,7 @@ app.set('view engine','ejs');
 app.use(express.static('./public'));
 
 //fire the controller
-// homeController(app);
-admin_apiController(app);
+homeController(app);
 
 //listen to port
 app.listen(3000);
