@@ -1,0 +1,90 @@
+body{
+	font-family: 'Lato', sans-serif;
+}
+.row{
+	margin: 0px;
+	padding: 0px;
+}
+.navbar{
+	background-color: #ab0303;
+	border:0;
+	border-radius: 0;
+	margin-bottom: 0px;
+
+}
+.navbar-brand{
+	color: #fff !important;
+}
+#homeLink{
+	color: #fff !important;
+}
+.options li{
+	display: inline;
+	list-style: none;
+}
+.wrapper{
+	width: 100%;
+	margin:auto;
+}
+.side-bar{
+	width: 10%;
+	background-color: #000;
+	padding: 0;
+	position: fixed;
+	height: 100%;
+}
+.sidebar_options{
+	padding: 5px;
+}
+.sidebar_options li{
+	list-style: none;
+	padding: 8px;
+	color: #fff;
+}
+.sidebar_options li a{
+	color: #fff;
+	text-decoration: none;
+}
+.sidebar_options li a:hover{
+	color: #dcdcdc;
+}
+.main-body{
+	width: 90%;
+
+	height: 100%;
+	padding: 20px;
+}
+.order_table{
+	width: 90%;
+	margin: auto;
+	padding: 20px;
+}
+.user_details td{
+	padding: 10px;
+}
+.billArea{
+	margin: auto;
+	width: 400px;
+	height: 400px;
+	border:2px solid #d30707;
+	margin-top: 100px;
+}
+.billArea td{
+	padding: 10px;
+}
+.bill_table{
+	width: 50%;
+	margin:auto;
+}
+.new_reg_order h3{
+	margin: 0px;
+	padding: 0px;
+	font-size: 30px;
+	color: #ab0303;
+	font-weight: bold;
+}
+.form{
+	width: 40%;
+	margin: auto;
+	padding: 10px;
+}
